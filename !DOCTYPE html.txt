@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Naranjo Mora - Landscape Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2e4d2c; /* Dark forest green */
+            color: #f1c40f; /* Gold */
+        }
+        header {
+            background-color: #213820; /* Darker shade of forest green */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f1c40f; /* Gold */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1a2c18;
+            padding: 10px;
+        }
+        nav a {
+            color: #f1c40f; /* Gold */
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            max-width: 800px;
+            margin: auto;
+            background-color: #213820; /* Darker shade of forest green */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin: 10px 0 5px;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1c40f; /* Gold */
+            border: none;
+            color: #2e4d2c; /* Dark forest green */
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact button:hover {
+            background-color: #d4a60b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Charles Naranjo Mora</h1>
+        <p>Landscape Designer Specializing in Historical Ornate Western European Gardens</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>As a dedicated landscape designer, I specialize in the creation and restoration of historical ornate Western European gardens and garden structures. My passion lies in blending classical design principles with contemporary functionality, resulting in timeless outdoor spaces that tell a story and offer a unique experience.</p>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of my recent projects:</p>
+        <img src="path/to/your/image1.jpg" alt="Project 1">
+        <img src="path/to/your/image2.jpg" alt="Project 2">
+        <img src="path/to/your/image3.jpg" alt="Project 3">
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="your_form_submission_url" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
